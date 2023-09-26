@@ -32,7 +32,6 @@ namespace NTC.Source.Code.Ecs
         {
             systems
                 .Add(new PlayerJumpSendEventSystem())
-                .Add(new GravityCalculationSystem())
                 .Add(new GroundCheckSystem())
                 .Add(new PlayerInputSystem())
                 .Add(new PlayerJumpSystem())
